@@ -58,3 +58,15 @@ button {
 .clear {
     background-color: rgb(228, 108, 41);
 }
+
+@media only screen and (max-width: 370px) {
+    .calculator-body {
+        display: grid;
+        grid-template-columns: repeat(4, 74px);
+        background-color: rgb(119, 161, 140);
+        padding: 14px;
+        border-radius: 5%;
+        height: 478px;
+        width: 324px;
+    }
+}
